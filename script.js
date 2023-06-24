@@ -5,7 +5,7 @@ window.promises = [];
 let a=new Promise((resolve)=>{
 	setTimeout(()=>{
         resolve("a")
-	},1000)
+	},3000)
 })
 let b=new Promise((resolve)=>{
 	setTimeout(()=>{
@@ -15,7 +15,7 @@ let b=new Promise((resolve)=>{
 let c=new Promise((resolve)=>{
 	setTimeout(()=>{
         resolve("c")
-	},3000)
+	},1000)
 })
 let d=new Promise((resolve)=>{
 	setTimeout(()=>{
